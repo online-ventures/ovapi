@@ -34,6 +34,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Figaro for more secure sensitive data handling
+gem 'figaro'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 

@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Ovapi::Application.config.secret_key_base = '31e7d4931fff7f7b16014874a0a3bc6e2049c19f398c3e36c694f202cfab2d104e9a6d59798131d1bfdebc3a00b6a7aaa88dd1befacddbee10df95832b12183c'
+Ovapi::Application.config.secret_key_base = Figaro.env.secret_key
